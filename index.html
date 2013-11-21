@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang=en-ca>
+<head>
+  <meta charset=utf-8>
+  <title>Forms</title>
+  <link href="css/general.css" rel="stylesheet">
+</head>
+<body>
+  
+	<form>
+
+	<div>
+		<label for="name">Name</label>
+		<input type="text" id="name" class="input-text">
+	</div>
+
+
+	<div>
+		<label for="pass">Password</label>
+		<input type="password" id="pass" class="input-text">
+	</div>
+
+
+	<div>
+		<label for="email">E-mail</label>
+		<input type="email" id="email" class="input-text">
+	</div>
+
+
+	<div>
+		<label for="website">Website</label>
+		<input type="url" id="website" class="input-text">
+	</div>
+
+	<div>
+		<label for="age">Age</label>
+		<input type="number" id="age" min="1" max="130">
+	</div>
+
+	<div>
+		<label for="favcolour">Favourite Colour</label>
+		<input type="color" id="favcolour">
+	</div>
+
+	<div>
+		<label for="birthday">Birthday</label>
+		<input type="date" id="birthday">
+	<!-- 
+	type=time
+	type=datetime-local
+	-->
+	</div>
+
+	<div>
+		<label for="awesomeness">Level of Awesomeness</label>
+		<input type="range" id="awesomeness" min="10" max="100" step="10">
+	</div>
+
+	<div>
+		<input type="checkbox" id="code" checked>
+		<label for="code">I Love Code!</label>
+	</div>
+
+	<fieldset>
+		<legend>Level of Satisfaction</legend>
+
+		<input type="radio" id="extreme-bad" name="satisfaction">
+		<label for="extreme-bad">Extremely dissatisfied</label>
+
+		<input type="radio" id="extreme-bad" name="satisfaction">
+		<label for="extreme-bad">Dissatisfied</label>
+
+		<input type="radio" id="extreme-bad" name="satisfaction"> 
+		<label for="extreme-bad">Neutral</label>
+
+		<input type="radio" id="extreme-bad" name="satisfaction">
+		<label for="extreme-bad">Satisfied</label>
+
+		<input type="radio" id="extreme-bad" name="satisfaction">
+		<label for="extreme-bad">Extremely satisfied</label>
+		<!-- 
+		the name groups them together for functionality
+		-->
+	</fieldset>
+
+	<div>
+		<label for="dino">Favourite dinosaur</label>
+		<select id="dino">
+			<option></option>
+			<option>T-Rex</option>
+			<option>Stegasaurus</option>
+			<option selected>Dimetrodon</option>
+			<!-- selected would be the default you want to add
+			-->
+			<option>Triceratops</option>
+		</select>
+	</div>
+
+	<div>
+		<label id="why">Why is that your favourite dinosaur?</label>
+		<textarea id="why"></textarea>
+	</div>
+
+	<button type="submit">Send!</button>
+
+
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>
