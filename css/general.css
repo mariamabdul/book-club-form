@@ -3,16 +3,15 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-body {
-	background-color: #b4d2d2;
+
+html {
+		background-image:url(../img/vintagewall1.jpg);
+		opacity: 70%;
 }
 
-header {
-	margin-bottom: 2em;
-	margin-top: 1em;
-	color: #006666;
-	font-size: 20px;
-	margin-left: 1em;
+.img {
+	width: 100%;
+	margin-top: 2em;
 }
 
 div {
@@ -79,3 +78,28 @@ button {
 .input-error {
 	border: 3px solid #990033;
 }
+
+
+@media only screen and (min-width: 90em) {
+	.img {
+	width: 50%;
+}
+
+}
+
+@media only screen and (min-width: 122em) {
+	.img {
+	width: 50%;
+}
+
+}
+
+
+@media only screen and (min-width: 183em) {
+	.img {
+	width: 50%;
+}
+
+}
+
+
